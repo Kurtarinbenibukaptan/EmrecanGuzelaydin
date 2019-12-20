@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css" />
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Image Gallery</title>
+    <style>
+
+        body {
+            margin: 0;
+            background: white;
+        }
+
+        .nav {
+            width: 100%;
+            background: #180578;
+            height: 80px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+        }
+
+            ul li {
+                float: left;
+                margin-top: 20px;
+            }
+
+                ul li a {
+                    width: 150px;
+                    color: white;
+                    display: block;
+                    text-decoration: none;
+                    font-size: 20px;
+                    text-align: center;
+                    padding: 20px;
+                    border-radius: 10px;
+                    font-family: 'Century Gothic';
+                    font-weight: bold;
+                }
+
+        a:hover {
+            background: #669900;
+        }
+
+        ul li ul {
+            background: #000033;
+        }
+
+            ul li ul li {
+                float: none;
+            }
+
+        ul li ul {
+            display: none;
+        }
+
+        ul li:hover ul {
+            display: block;
+        }
+
+        #slider {
+            width: 750px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li> <a href="MainPage.html"> Home </a> </li>
+            <li>
+                <a href="#"> Galleries </a>
+                <ul>
+                    <li><a href="PhotoGallery.html"> Ship Gallery</a></li>
+                </ul>
+            </li>
+            <li> <a href="ContactPage.html"> Contact </a> </li>
+        </ul>
+    </div>
+    <div class="gallery">
+        <a href="Gallery/Crescent.jpg" data-lightbox="mygallery" data-title="Photographer:Cristian/Imo:9785108/14 Kasım 2019"><img src="Gallery/Crescent-small.jpg" title="Photographer:Cristian/Imo:9785108/14 Kasım 2019" /></a>
+        <a href="Gallery/delfborg.jpg" data-lightbox="mygallery" data-title="Photographer:Frits Olinga/Imo:7716440/2 Eylül 2001"><img src="Gallery/delfborg-small.jpg" title="Photographer:Frits Olinga/Imo:7716440/2 Eylül 2001" /></a>
+        <a href="Gallery/pegasus.jpg" data-lightbox="mygallery" data-title="Photographer:Carlo Martinelli/Imo:7521651/12Temmuz 1999"><img src="Gallery/pegasus-small.jpg" title="Photographer:Carlo Martinelli/Imo:7521651/12Temmuz 1999" /></a>
+        <a href="Gallery/terneuzen.jpg" data-lightbox="mygallery" data-title="Photographer:Marco Shoone/Imo:8915469/16 Aralık 2019"><img src="Gallery/terneuzen-small.jpg" title="Photographer:Marco Shoone/Imo:8915469/16 Aralık 2019" /></a>
+        <a href="Gallery/nordpacific.jpg" data-lightbox="mygallery" data-title="Photographer:Owen Foley/Imo:9802487/13 Haziran 2019"><img src="Gallery/nordpacific-small.jpg" title="Photographer:Owen Foley/Imo:9802487/13 Haziran 2019" /></a>
+        <a href="Gallery/maerskhorsburgh.jpg" data-lightbox="mygallery" data-title="Photographer:Erwin Willemse/Imo:9786269/16 Aralık 2019"><img src="Gallery/maerskhorsburgh-small.jpg" title="Photographer:Erwin Willemse/Imo:9786269/16 Aralık 2019" /></a>
+        <a href="Gallery/britannıaseaways.jpg" data-lightbox="mygallery" data-title="Photographer:Gena Anfimov/Imo:9153032/16 Aralık 2019"><img src="Gallery/britannıaseaways-small.jpg" title="Photographer:Gena Anfimov/Imo:9153032/16 Aralık 2019" /></a>
+        <a href="Gallery/orientaldragon.jpg" data-lightbox="mygallery" data-title="Photographer:Syed Ahmad Fathi/Imo:7125861/17 Aralık 2019"><img src="Gallery/orientaldragon-small.jpg" title="Photographer:Syed Ahmad Fathi/Imo:7125861/17 Aralık 2019" /></a>
+        <a href="Gallery/juthapatthama.jpg" data-lightbox="mygallery" data-title="Photographer:Bob Scott/Imo:9088419/22 Mart 2015"><img src="Gallery/juthapatthama-small.jpg" title="Photographer:Bob Scott/Imo:9088419/22 Mart 2015" /></a>
+        <a href="Gallery/spiritoftasmania1.jpg" data-lightbox="mygallery" data-title="Photographer:Owen Foley/Imo:9785108/24 Kasım 2017"><img src="Gallery/spiritoftasmania1-small.jpg" title="Photographer:Owen Foley/Imo:9785108/24 Kasım 2017" /></a>
+
+    </div>
+</body>
+</html>
